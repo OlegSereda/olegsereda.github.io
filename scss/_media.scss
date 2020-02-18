@@ -14,7 +14,16 @@
         width: 100%;
     }
     .process-follow-wrap .process-follow__item{
-        width: 30%;
+        width: 25%;
+        .widget-wrap{
+            min-height: 325px;
+        }
+    }
+    .we-help-wrap h2{
+        padding-bottom: 15px;
+    }
+    .our-services-wrap .our-service .our-services__item .description h3{
+        padding-right: 20%;
     }
     .industries-serve-wrap .industries-serve__item{
         width: 19%;
@@ -126,7 +135,18 @@
             }
         }
     } 
-    
+    .our-features-wrap .our-features__item{
+        padding: 0;
+        h3{
+            padding-right: 25%;
+        }
+    }
+    .contact-wrap .container .form-block{
+        width: 77%;
+    }
+    .contact-wrap .container .adress-block-wrap{
+        margin-left: 30px;
+    }
 }  
 
 @media (max-width: 768px){
