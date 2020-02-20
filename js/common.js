@@ -101,6 +101,7 @@ $(function() {
 		$(this).toggleClass('active');
 	  });
 	  
+	  /*
 	$(window).resize(function(){
 		var w = $(window).width(),
 			check = $('.checkbox-menu-icon');
@@ -122,7 +123,7 @@ $(function() {
 	});
 
 	$(window).trigger('resize');
-
+*/
 	$('.timer').countTo();
 	
 
